@@ -1,0 +1,17 @@
+$color-primario: rgb(60, 13, 190);
+
+
+.nabvar{
+    position: absolute;
+    position: fixed;
+    background-color: $color-primario;
+    width: 99%;
+    height: 6em;
+    border-radius: 1em;
+    margin-top: 0.3em;
+}
+
+.cont_nabvar{
+    display: flex;
+    justify-content: center;
+}

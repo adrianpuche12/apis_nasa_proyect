@@ -1,0 +1,69 @@
+:root {
+    --backgroundColor: rgb(8, 7, 104);
+    --colorBorder: rgb(19, 19, 189);
+    --backgroundBody: rgb(157, 157, 250);
+}
+
+.content {
+    margin-top: 4em;
+    height: 100%;
+    color: white;
+    background-image: url(../../public/assets/images-background/background-main-2.jpg);
+}
+
+.body {
+    margin-top: 6em;
+    display: flex;
+    justify-content: center;
+    /*
+    background-repeat: no-repeat;
+    background-image: url("/public/assets/images-home/api-nasa-2.jpg");
+    */
+}
+
+.title {
+    margin-top: 0%;
+    margin-bottom: 3em;
+    background-color: var(--backgroundColor);
+    padding: 1em;
+}
+
+.img {
+    width: 50%;
+    margin: 8px;
+}
+
+.container {
+    width: 50%;
+}
+
+.text_center {
+    font-size: x-large;
+}
+
+.row {
+    display: flex;
+    background-color: var(--backgroundColor);
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 192, 192);
+    line-height: 1.9;
+    background-color: var(--backgroundColor);
+}
+
+.explanation {
+    padding: 2em;
+    text-align: center;
+    line-height: 1.9;
+    margin: 8px;
+    background-color: rgb(172, 170, 170);
+    margin-bottom: 4em;
+    background-color: var(--backgroundColor);
+}
+
+.apod {
+    padding: 2em;
+}

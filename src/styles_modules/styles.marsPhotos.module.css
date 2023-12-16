@@ -1,0 +1,29 @@
+.title {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.galery {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+}
+
+body {
+    background-image: url(../../public/assets/images-background/background-main-2.jpg);
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    text-align: start;
+    margin: 4em;
+}
+
+.container{
+    flex-wrap: nowrap;
+}

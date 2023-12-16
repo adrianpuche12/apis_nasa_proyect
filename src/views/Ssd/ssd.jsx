@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ssd() {
+function Ssd() {
   return (
     <div>ssd</div>
   )
 }
 
-export default ssd
+export default Ssd;
