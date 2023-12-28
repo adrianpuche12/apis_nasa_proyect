@@ -1,6 +1,6 @@
 import React from 'react'
 import dataHome from '../../utils/api-home';
-import styles from "../../styles/home.module.css"
+import styles from "../../styles_modules/styles.home.module.css"
 import { Link } from 'react-router-dom';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';

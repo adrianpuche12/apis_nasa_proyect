@@ -1,17 +1,18 @@
-$color-primario: rgb(60, 13, 190);
+:root {
+    --background-color: rgb(60, 13, 190)
+}
 
-
-.nabvar{
+.nabvar {
     position: absolute;
     position: fixed;
-    background-color: $color-primario;
+    background-color: var(--background-color);
     width: 99%;
     height: 6em;
     border-radius: 1em;
     margin-top: 0.3em;
 }
 
-.cont_nabvar{
+.cont_nabvar {
     display: flex;
     justify-content: center;
 }
