@@ -13,6 +13,7 @@ export const URL_NEW_ES = "https://api.nasa.gov/neo/rest/v1/feed?start_date=2015
 // URL DE Mars photos
 export const MARS_PHOTOS = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=";
 
+// ==============================================================
 
 // URLs de DONKI
 // Coronal Mass Ejection (CME)
@@ -48,13 +49,20 @@ export const WSA = "https://api.nasa.gov/DONKI/WSAEnlilSimulations?startDate=201
 //Notifications
 export const NOTIFICATIONS = "https://api.nasa.gov/DONKI/notifications?startDate=2014-05-01&endDate=2014-05-08&type=all&api_key=";
 
-
+// ==============================================================
 
 //Earth
-export const EARTH = "https://api.nasa.gov/planetary/earth/assets?lon=-95.33&lat=29.78&date=2018-01-01&&dim=0.10&api_key=DEMO_KEY";
+export const EARTH = "https://api.nasa.gov/planetary/earth/assets?lon=-95.33&lat=29.78&date=2018-01-01&&dim=0.10&api_key=";
 
 //EPIC
-export const EPIC = "https://api.nasa.gov/EPIC/api/natural/images?api_key=DEMO_KEY";
+export const EPIC = "https://api.nasa.gov/EPIC/api/natural/images?api_key=";
 
 //Exoplanet Archive
 export const EXOPLANET = "";
+
+//techtransfer
+export const TECHTRANSFER = "https://api.nasa.gov/techtransfer/patent/?engine&api_key=";
+
+//TLE API
+export const TLE_API = "http://tle.ivanstanojevic.me/api/tle";
+
